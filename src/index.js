@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tekkom from './tekkom';
+import Tugas from './tugas';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Tekkom />
+    {/* <Tugas /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
